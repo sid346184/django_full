@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.egg-info/
+*.egg
+*.log
+
+# Django
+db.sqlite3
+*.sqlite3
+media/
+staticfiles/
+.env
+.env.*
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Migrations (optional: you may want to keep these)
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# Byte-compiled files
+*.so
+
+# Coverage and test outputs
+htmlcov/
+.coverage
+.tox/
+.nox/
+.cache/
+pytest_cache/
+coverage.xml
+
+# IDEs
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# System Files
+Thumbs.db
+ehthumbs.db
